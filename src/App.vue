@@ -12,8 +12,7 @@ import HelloWorld from './components/HelloWorld.vue'
 export default defineComponent({
   name: 'SnowindStories',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 })
 </script>
-
