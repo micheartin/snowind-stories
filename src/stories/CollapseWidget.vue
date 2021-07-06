@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button class="btn" @click="model = !model" v-html="model ? 'Open' : 'Close'"></button>
+    <button class="btn" @click="model = !model" v-html="model ? 'Open' : 'Close'"/>
     <div :class="css" class="mt-4">
       {{ textBlock }}
     </div>

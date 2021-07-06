@@ -1,6 +1,17 @@
 <template>
-  <sw-switch v-if="hasLabel" v-model:value="model" :class="css" :label="labelText" :big="big"></sw-switch>
-  <sw-switch v-else v-model:value="model" :class="css" :big="big"></sw-switch>
+  <sw-switch
+    v-if="hasLabel"
+    v-model:value="model"
+    :class="css"
+    :label="labelText"
+    :big="big"
+  />
+  <sw-switch
+    v-else
+    v-model:value="model"
+    :class="css"
+    :big="big"
+  />
 </template>
 
 <script lang="ts">

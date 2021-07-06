@@ -1,5 +1,11 @@
 <template>
-  <button :class="classes" :label="label" :disabled="disabled" @click="onClick" v-html="label" />
+  <button
+    :class="classes"
+    :label="label"
+    :disabled="disabled"
+    @click="onClick"
+    v-html="label"
+  />
 </template>
 
 <script lang="ts">

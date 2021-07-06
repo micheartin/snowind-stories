@@ -9,9 +9,12 @@
       :inline-label="inlineLabel"
       :class="cssClass"
       required
-    ></sw-input>
+    />
     <div class="mt-3 text-sm">
-      <div v-if="form.name.isValid === true" class="text-success dark:text-success-dark">
+      <div
+        v-if="form.name.isValid === true"
+        class="text-success dark:text-success-dark"
+      >
         Ok
       </div>
       <div
